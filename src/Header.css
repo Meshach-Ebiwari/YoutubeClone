@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #212121;
+}
+.header__logo{
+    height: 30px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+.header__input{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    border-radius: 5px;
+}
+.header__inputButton{
+    width: 50px !important;
+    background-color: whitesmoke;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color:#030708;
+    z-index: -1;
+}
+.header__icons{
+    display: flex;
+    align-items: center;
+}
+.header__input > input{
+    flex: 1;
+    border: none;
+    background: transparent;
+    color: whitesmoke;
+}
+.header__input > input:focus{
+    outline: none;
+}
+.header__icon{
+    margin-right: 8px;
+    color: whitesmoke;
+    cursor: pointer;
+}
